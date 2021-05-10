@@ -13,6 +13,7 @@ body {
 header {
     display: flex;
     justify-content: flex-end;
+    height: 40px;
 }
 
 header button {
@@ -21,7 +22,7 @@ header button {
 }
 
 main {
-    height: calc(100vh - 150px);
+    height: calc(100vh - 40px - 100px);
 }
 
 
@@ -68,6 +69,7 @@ footer{
     height: 100px;
     background-color:#222222;
     color: white;
+    height: 100px;
 }
 
 footer > div{
