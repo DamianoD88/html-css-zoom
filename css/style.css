@@ -21,16 +21,13 @@ header button {
     padding:5px 5px;
 }
 
-main {
-    height: calc(100vh - 40px - 100px);
-}
 
 
 .images {
     display: flex;
     flex-wrap: wrap;
     overflow-y: auto;
-    height: 100%;
+    height: calc(100vh - 40px - 100px);
 }
 
 .personaggio {
